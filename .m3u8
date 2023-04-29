@@ -1,6 +1,2 @@
-$cURL = curl_init();         
-
-curl_setopt($cURL, CURLOPT_URL, "https://6.poold.cfd/taso1/index.m3u8");         
-curl_setopt($cURL, CURLOPT_REFERER, "https://6.poold.cfd");         
-curl_exec($cURL);         
-curl_close($cURL);
+#EXTINF:-1 tvg-id="ABSTV.ag" status="error",ABS TV (1080p) [Not 24/7]https://6.poold.cfd/taso1/index.m3u8
+#EXTVLCOPT:http-referrer=https://6.poold.cfd/
