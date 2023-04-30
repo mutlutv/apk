@@ -1,6 +1,58 @@
 #EXTM3U
-#EXTINF:-1, Canada CBC
-#EXTVLCOPT:http-referrer=https://6.poold.cfd/
-https://6.poold.cfd/taso1/index.m3u8
-#EXTINF:-1 tvg-id="KayhanTV.af" status="online",Kayhan TV (720p)
-https://9.emek3.cfd/fatih2/index.m3u8|Referer=https://9.emek3.cfd/
+<!-- JwPlayer -->
+
+<script src="https://ssl.p.jwpcdn.com/player/v/8.18.4/jwplayer.js"> </script> 
+<script type="text/javascript">jwplayer.key = "W7zSm81+mmIsg7F+fyHRKhF3ggLkTqtGMhvI92kbqf/ysE99";</script> 
+ 
+<div id="megaplay"></div> 
+ 
+ 
+ 
+ 
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="UTF-8"> 
+ 
+</head> 
+<body> 
+<script type="text/javascript" src="http://p.jwpcdn.com/6/8/jwplayer.js"></script> 
+<div id="player"></div> 
+<script type="text/javascript"> 
+jwplayer("player").setup({ 
+ playlist: [{ 
+ captions: [{ 
+      file: 'http://www.longtailvideo.com/sites/default/files/jw6-captions.vtt', 
+      label: 'Mutlu tv ' 
+    }, 
+ ], 
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRggERdfpZjnPe461saSzDU1lQvbZNX8wa7rQ&usqp=CAU", 
+    sources: [{ 
+      file: "https://vkvsd171.mycdn.me/hls/4407531342413.m3u8/sig/mtXcOPVfP38/expires/1682872236374/srcIp/5.229.48.190/urls/45.136.20.36/clientType/14/srcAg/CHROME_ANDROID/mid/5766752185165/4407531342413_high/index.m3u8", 
+      label: "HD" 
+    },{
+      file: "https://ia904707.us.archive.org/4/items/mutlutv_mac_saati/mutlutv_mac_saati.mp4", 
+      label: "SD" 
+    }] 
+  }], 
+ skin: "ethan.xml", 
+ primary: "flash", 
+ stretching: "exactfit", 
+    logo: { 
+file: "https://i.hizliresim.com/ey2sjhh.gif"}, 
+ width: 720, 
+ height: 480, 
+ plugins: { 
+  'controlbarlogo.js': { 
+   link:'http://www.ethanfeldman.net/', 
+   target: '_blank', 
+   width: '100%', 
+   height: '100%', 
+   left: '634%' 
+   //border: '1px solid #000' 
+  } 
+ } 
+}); 
+</script> 
+</body> 
+</html>
